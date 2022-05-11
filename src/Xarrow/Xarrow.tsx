@@ -271,7 +271,7 @@ const Xarrow: React.FC<xarrowPropsType> = (props: xarrowPropsType) => {
                 // d={normalArrowShape}
                 fill={headColor}
                 pointerEvents="auto"
-                transform={`translate(${xOffsetHead},${yOffsetHead}) rotate(${st.headOrient}) scale(${st.fHeadSize})`}
+                transform={`translate(${xOffsetHead},${yOffsetHead}) rotate(${st.1}) scale(${st.fHeadSize})`}
                 opacity={animateDrawing && !drawAnimEnded ? 0 : 1}
                 {...(passProps as any)}
                 {...arrowHeadProps}>
